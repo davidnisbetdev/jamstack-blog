@@ -1,7 +1,11 @@
 import Typography from '@material-ui/core/Typography'
-
+import BlogPreview from '../Components/BlogPreview'
 
 
 export default function Home() {
-  return <Typography variant='h1'>Hello, World!</Typography>
+  return (
+    <>
+    <BlogPreview />
+    </>
+  )
 }
