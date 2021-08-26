@@ -1,11 +1,11 @@
 import Typography from '@material-ui/core/Typography'
-import BlogPreview from '../Components/BlogPreview'
+import BlogPreviewLayout from '../Components/Layouts/BlogPreviewLayout'
 
 
 export default function Home() {
   return (
     <>
-    <BlogPreview />
+    <BlogPreviewLayout />
     </>
   )
 }

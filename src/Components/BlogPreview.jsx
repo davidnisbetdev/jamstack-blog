@@ -17,7 +17,23 @@ const BlogPreview = () => {
                 </MuiLink>
             } 
             
-            subheader={<>qfffwegwegwg</>}/>
+            subheader={<>qfffwegwegwg</>}
+            />
+
+            <MuiLink MuiComponent={CardMedia} href='/'>
+                <Image 
+                    src='/pnwbnUg.png' 
+                    height={1080} 
+                    width={1920} 
+                    layout='responsive' 
+                    objectFit='cover' 
+                    alt='Image for cover'
+                />
+
+                <CardContent>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </CardContent>
+            </MuiLink>
         </Card>
     )
 }
